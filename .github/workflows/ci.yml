@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Image
-      run: docker build -t bluewave951/devops-lab:v1 .
+      run: docker build -t herobp/devops-lab:v1 .
 
     - name: Push Image
-      run: docker push bluewave951/devops-lab:v1
+      run: docker push herobp/devops-lab:v1
