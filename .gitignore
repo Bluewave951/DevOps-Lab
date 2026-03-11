@@ -1,0 +1,4 @@
+
+# Ignore local devops-lab image
+node_modules
+
